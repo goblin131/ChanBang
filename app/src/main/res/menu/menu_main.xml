@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="com.chanbang.android.sample.MainActivity">
+      tools:context="com.chanbang.android.chanbang.MonthlyAcvitiy">
     <item android:id="@+id/monthly_rent"
           android:title="@string/monthly_rent"
           android:orderInCategory="100"
