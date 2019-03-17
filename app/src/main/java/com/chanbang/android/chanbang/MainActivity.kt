@@ -2,6 +2,7 @@ package com.chanbang.android.chanbang
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 
@@ -36,22 +37,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun goMonthlyActivity() :Boolean {
-        println("start Monthly Activity")
+        Log.d("MainActivity","Start Monthly Activity")
         return true
     }
 
     fun goEarningCalculatorActivity() :Boolean {
-        println("start EarningCalculator Activity")
+        Log.d("MainActivity","Start EarningCalculator Activity")
         return true
     }
 
     fun goMarketPriceActivity() :Boolean {
-        println("start MarketPrice Activity")
+        Log.d("MainActivity","Start MarketPrice Activity")
         return true
     }
 
     fun goSettingActivity() : Boolean{
-        println("start Setting Activity")
+        Log.d("MainActivity","Start Setting Activity")
         return true
     }
 }
