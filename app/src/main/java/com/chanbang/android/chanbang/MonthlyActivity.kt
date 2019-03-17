@@ -5,16 +5,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import com.chanbang.android.chanbang.business.MonthlyManagement
 
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_monthly.*
+import kotlinx.android.synthetic.main.content_monthly.*
 
 class MonthlyAcvitiy : AppCompatActivity() {
+    val service : MonthlyManagement = MonthlyManagement()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_monthly)
 
         setSupportActionBar(toolbar)
+
+        var korLocaleMonth : Array<String> = resources.getStringArray(R.array.monthly_kor_month)
+        var korLocaleWeek : Array<String> = resources.getStringArray(R.array.monthly_kor_weekday)
+        calendarView.setTitleMonths(korLocaleMonth)
+        calendarView.setWeekDayLabels(korLocaleWeek)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
