@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.chanbang.android.sample.MainActivity">
+    <item android:id="@+id/monthly_rent"
+          android:title="@string/monthly_rent"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/earning_calc"
+          android:title="@string/earning_calc"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/market_price"
+          android:title="@string/market_price"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/setting"
+          android:title="@string/setting"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>
