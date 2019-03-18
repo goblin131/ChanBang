@@ -4,4 +4,7 @@
     <string name="earning_calc">수익률 계산</string>
     <string name="market_price">시세 조회</string>
     <string name="setting">설정</string>
+    <string name="main_title">찬방</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 </resources>
